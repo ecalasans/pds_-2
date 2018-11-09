@@ -18,7 +18,7 @@ import scipy.stats
 import scipy.fftpack
 import struct
 import subprocess
-import thinkplot
+from ThinkDSP import  thinkplot
 import warnings
 
 from fractions import gcd
