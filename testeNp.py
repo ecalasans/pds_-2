@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy import signal
 
 DOIS_PI = 2 * np.pi
 PI = 'π'
@@ -29,6 +30,7 @@ def DFT(N=0, freqs=[]):
         x_k[k] = soma
     '''
 
+    '''
     for k in range(N-1):
         soma = 0
         for f in freqs:
@@ -36,15 +38,20 @@ def DFT(N=0, freqs=[]):
             valor = (1/2j)*(((1 - np.exp(1j * N * (omega - k*Omega0)))/(1 - np.exp(1j * (omega - k*Omega0))))-\
                     ((1 - np.exp(-1j * N * (omega + k*Omega0)))/(1 - np.exp(-1j * (omega + k*Omega0)))))
             soma = soma + valor
+            print('{} - {}:  {}'.format(f, k, soma))
 
         x_k[k] = soma
+    '''
+
+    for k in range(N):
+        soma = 0
 
     return (x_k, Omega0)
 
 frequencias = [5, 53, 539]
 
 # Cálculo de x1_[k]
-x1_k = DFT(500, frequencias)
+x1_k = DFT(3000, frequencias)
 
 k = np.arange(len(x1_k[0]))
 
@@ -57,3 +64,4 @@ plt.stem(kOmega0, np.abs(x1_k[0]), '-')
 plt.xticks(np.linspace(0,6,5), labels_x)
 plt.subplots_adjust(right=3, top=2)
 plt.show()
+
