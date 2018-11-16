@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 DOIS_PI = 2 * np.pi
 PI = 'π'
 
-def DFT(x_n, N=0):
+def DFT(N=0, freqs=[]):
     '''
     Função que calcula a DFT para uma determinada sequência
 
@@ -20,20 +20,31 @@ def DFT(x_n, N=0):
     x_k = np.zeros(N, dtype=np.complex_)
 
     # Cálculo de x[k]
-    for k in range(N):
+    '''for k in range(N):
         soma = 0
         for n in range(len(x_n)):
             expComplexa = np.exp(-1j * Omega0 * k * n)
             produto = x_n[n] * expComplexa
             soma = soma + produto
         x_k[k] = soma
+    '''
+
+    for k in range(N-1):
+        soma = 0
+        for f in freqs:
+            omega = DOIS_PI * f
+            valor = (1/2j)*(((1 - np.exp(1j * N * (omega - k*Omega0)))/(1 - np.exp(1j * (omega - k*Omega0))))-\
+                    ((1 - np.exp(-1j * N * (omega + k*Omega0)))/(1 - np.exp(-1j * (omega + k*Omega0)))))
+            soma = soma + valor
+
+        x_k[k] = soma
 
     return (x_k, Omega0)
 
-x = np.random.randint(1, 3, 4)
+frequencias = [5, 53, 539]
 
 # Cálculo de x1_[k]
-x1_k = DFT(x, 100)
+x1_k = DFT(50, frequencias)
 
 k = np.arange(len(x1_k[0]))
 
