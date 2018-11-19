@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fea2cdf-470a-4e4a-b35e-20a3e1487f0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/pds_P2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pds_P2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/p2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/p2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeNp.py" beforeDir="false" afterPath="$PROJECT_DIR$/testeNp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeStem.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/testeStem.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +13,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pds_P2$P2.coverage" NAME="P2 Coverage Results" MODIFIED="1542574844703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/pds_P2$TestePython.coverage" NAME="TestePython Coverage Results" MODIFIED="1542392897153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pds_P2$P2.coverage" NAME="P2 Coverage Results" MODIFIED="1542588810736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/pds_P2$TestePython.coverage" NAME="TestePython Coverage Results" MODIFIED="1542588499542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1592518341">
@@ -64,27 +64,58 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="982" />
+          <entry key="txt" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="Python" value="982" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ipynb" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IPNB" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/p2.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="12" />
+              <selected id="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testeNp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="314">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeStem.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="1" />
             </state>
           </provider>
         </entry>
@@ -106,6 +137,7 @@
       <list>
         <option value="$PROJECT_DIR$/ThinkDSP/thinkdsp.py" />
         <option value="$PROJECT_DIR$/teste.py" />
+        <option value="$PROJECT_DIR$/testeStem.ipynb" />
         <option value="$PROJECT_DIR$/testeNp.py" />
         <option value="$PROJECT_DIR$/p2.ipynb" />
       </list>
@@ -251,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542381717110</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Resolvendo conflitos">
+      <created>1542575148180</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542575148181</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -263,8 +302,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32830188" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32796317" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39930955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -279,7 +318,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.533758" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.5329906" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -294,7 +333,19 @@
     <MESSAGE value="Continuando a letra c)" />
     <MESSAGE value="Letras c) e f) feitas" />
     <MESSAGE value="Letras c) e f) em andamento." />
-    <option name="LAST_COMMIT_MESSAGE" value="Letras c) e f) em andamento." />
+    <MESSAGE value="Resolvendo conflitos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolvendo conflitos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testeNp.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/teste.py" />
@@ -316,20 +367,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p2.ipynb">
+    <entry file="file://$PROJECT_DIR$/testeStem.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="12" />
+          <selected id="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testeNp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="314">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="13" />
         </state>
       </provider>
     </entry>
