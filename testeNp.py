@@ -42,17 +42,4 @@ frequencias = [5, 53, 539]
 # Cálculo de x1_[k]
 x1_k = DFT(30000, frequencias)
 
-print(type(x1_k[0]))
-
-k = np.arange(len(x1_k[0]))
-
-kOmega0 = k * x1_k[1]
-locs = np.linspace(0, len(k), 5)
-labels_x = ('0', '{}/2'.format(PI), '{}'.format(PI),'3{}/2'.format(PI), '2{}'.format(PI))
-
-#print(locs)
-plt.stem(kOmega0, np.abs(x1_k[0]), '-')
-plt.xticks(np.linspace(0,6,5), labels_x)
-plt.subplots_adjust(right=3, top=2)
-plt.show()
-
+print()
